@@ -34,7 +34,7 @@
 - create another file in api called `pets.js`
 - inside `pets.js` import the instance you just created
 - Hint: `
-  - Hint: `
+  - Hint: ```js
 import axios from "axios";
 
 const instance = axios.create({
@@ -42,7 +42,7 @@ const instance = axios.create({
 });
 
 export default instance;
-`
+```
 - create a function for each enpoint
 
   - one for getting all the pets
