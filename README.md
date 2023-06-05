@@ -45,6 +45,7 @@
 - In `PetDetail.js` call the get by id function to get the pet and remove the `petsData`
 - In `PetDetail.js` make the update button work
 - In `PetDetail.js` make the delete button work
+- In `Modal.js` call the api and send the new pet data 
 
 # Endpoints
 
