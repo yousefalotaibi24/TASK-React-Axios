@@ -9,9 +9,8 @@ function App() {
   return (
     <div className="font-mono">
       <Navbar />
-      {/* <Home />
-      <PetList /> */}
-
+      <Home />
+      <PetList />
       <PetDetail />
     </div>
   );
