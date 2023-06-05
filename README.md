@@ -28,13 +28,7 @@
 - use the bellow table to figure out whats the `baseURL`
 - Then create an instance using this `axios.create({baseURL: baseURL})`. refer to the docs for [axios](https://axios-http.com/docs/intro)
 - export as default your `instance`
-
-## Creating our first api
-
-- create another file in api called `pets.js`
-- inside `pets.js` import the instance you just created
-- Hint: `
-  - Hint: 
+ Hint: 
 ```js
 import axios from "axios";
 
@@ -44,6 +38,11 @@ const instance = axios.create({
 
 export default instance;
 ```
+
+## Creating our first api
+
+- create another file in api called `pets.js`
+- inside `pets.js` import the instance you just created
 - create a function for each enpoint
 
   - one for getting all the pets
