@@ -22,11 +22,11 @@
 ## Seting up Axios
 
 - install axios using `npm i axios`
-- Create a folder called `api`
+- Create a folder called `api` in the `src` directory
 - inside this folder create a file called `index.js`
 - inside `index.js` import `axios`
 - use the bellow table to figure out whats the `baseURL`
-- Then create an instance using this `axios.create({baseURL: baseURL})`
+- Then create an instance using this `axios.create({baseURL: baseURL})`. refer to the docs for [axios](https://axios-http.com/docs/intro)
 - export as default your `instance`
 
 ## Creating our first api
