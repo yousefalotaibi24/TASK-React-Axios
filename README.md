@@ -34,7 +34,8 @@
 - create another file in api called `pets.js`
 - inside `pets.js` import the instance you just created
 - Hint: `
-  - Hint: ```js
+  - Hint: 
+```js
 import axios from "axios";
 
 const instance = axios.create({
