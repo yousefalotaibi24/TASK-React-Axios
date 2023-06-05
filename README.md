@@ -33,6 +33,16 @@
 
 - create another file in api called `pets.js`
 - inside `pets.js` import the instance you just created
+- Hint: `
+  - Hint: `
+import axios from "axios";
+
+const instance = axios.create({
+  baseURL: "https://pets-react-query-backen.herokuapp.com",
+});
+
+export default instance;
+`
 - create a function for each enpoint
 
   - one for getting all the pets
@@ -52,7 +62,7 @@
 | Title            | Method   | Endpoint                                                       | Data required                               |
 | ---------------- | -------- | -------------------------------------------------------------- | ------------------------------------------- |
 | Get all pets     | `GET`    | `https://pets-react-query-backen.herokuapp.com/pets/`          | `no data requierd`                          |
-| Get one pet by ID     | `GET`    | `https://pets-react-query-backen.herokuapp.com/pets/`          | `no data requierd`                          |
+| Get one pet by ID     | `GET`    | `https://pets-react-query-backen.herokuapp.com/pets/${pet.id}`          | `petId`                          |
 | Add a new pet       | `POST`   | `https://pets-react-query-backen.herokuapp.com/pets/` | `name`, `type`, `image`,`adopted as 1 or 0` |
 | Update pet by ID | `PUT`    | `https://pets-react-query-backen.herokuapp.com/pets/${pet.id}` | `name`, `type`, `image`,`adopted as 1 or 0` |
 | Delete pet by ID | `DELETE` | `https://pets-react-query-backen.herokuapp.com/pets/${pet.id}` | `no data requierd`                          |
